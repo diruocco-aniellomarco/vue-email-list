@@ -19,7 +19,6 @@ createApp({
           });
         i++;
       }
-      console.log(this.mailList);
     },
   },
 

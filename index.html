@@ -27,7 +27,7 @@
   <body>
     <div id="app">
       <h1></h1>
-      <ol>
+      <ol v-if="mailList.length == 10">
         <li v-for="(mail, index) in mailList">{{mail}}</li>
       </ol>
     </div>
