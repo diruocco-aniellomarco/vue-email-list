@@ -27,12 +27,3 @@ createApp({
     this.randomMail();
   },
 }).mount("#app");
-
-/*
-  
-  axios.get('indirizzo')
-  .then((response) => {
-    console.log(response.data);
-  })
-  
-  */
